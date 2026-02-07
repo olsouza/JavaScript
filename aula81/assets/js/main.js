@@ -55,6 +55,10 @@ class ValidaFormulario {
                 valid = false;
             }
 
+            // if(campo.classList.contains('nome')) {
+            //     if(!this.validaNome(campo)) valid = false;
+            // }
+
             if(campo.classList.contains('cpf')) {
                 if(!this.validaCPF(campo)) valid = false;
             }
@@ -66,6 +70,21 @@ class ValidaFormulario {
 
         return valid;
     }
+
+    // validaNome(campo) {
+    //     const nome = campo.value;
+    //     let valid = true;
+    //     if(nome === 'Julio' || nome === 'julio') {
+    //         this.criaErro(campo, '');
+    //         valid = false;
+    //     }
+    //     if(nome === 'Luis' || nome === 'luis') {
+    //         this.criaErro(campo, '');
+    //         valid = false;
+    //     }
+
+    //     return valid;
+    // }
 
     validaUsuario(campo) {
         const usuario = campo.value;
