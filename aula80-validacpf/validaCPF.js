@@ -46,12 +46,12 @@ class ValidaCPF {
     }
 }
 
-let validacpf = new ValidaCPF('070.987.720-03');
-// validacpf = new ValidaCPF('111.111.111-11');
-console.log(validacpf.valida());
+// let validacpf = new ValidaCPF('070.987.720-03');
+// // validacpf = new ValidaCPF('111.111.111-11');
+// console.log(validacpf.valida());
 
-if (validacpf.valida()) {
-    console.log('CPF válido');
-} else {
-    console.log('CPF inválido');
-}
+// if (validacpf.valida()) {
+//     console.log('CPF válido');
+// } else {
+//     console.log('CPF inválido');
+// }
